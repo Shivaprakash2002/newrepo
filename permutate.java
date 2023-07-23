@@ -22,7 +22,7 @@ public class permutate {
             s = S.substring(0,S.length()-1);
             st = S.charAt(S.length()-1)+s;
             if(st.equals(S)){
-                st = S.charAt(S.length()-2) + ; 
+                st = S.charAt(S.length()-2); 
             }
             System.out.println(st);
             S = st;
